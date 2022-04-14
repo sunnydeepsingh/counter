@@ -1,0 +1,44 @@
+:root{
+    --color-primary: #F1F5F8;
+    --color-secondary: #008000;
+    --color-center:#102B42;
+}
+body{
+    background-color: var(--color-primary);
+
+}
+
+.main{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+.Work{
+    display: flex;
+    font-size: 30px;
+    gap: 25px;
+}
+
+h1{
+    font-size: 83px;
+    color: var(--color-center);
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 95px;
+    margin: 0 0 20px 0;
+    color: var(--color-secondary);
+}
+
+.container{
+    border: 3px solid #181717;
+    color: #181717;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.container:active{
+    border-color: #3B7FD5;
+}
